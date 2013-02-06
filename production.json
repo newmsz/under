@@ -1,20 +1,38 @@
 {
-  "name": {
-    "en-us": "stillmill"
-  },
-  "description": {
-    "en-us": "an industrial plant for the manufacture of steel"
-  },
-  "processes": [ {
+  "stillmill": {
     "name": {
-      "en-us": "smelting"
+      "en-us": "stillmill"
     },
-    "required_technology": [ "smelting" ],
-    "required_matter": {
-      "$or": {
-        "magnetite": 3
-      }
+    "description": {
+      "en-us": "an industrial plant for the manufacture of steel"
     },
-    "output": "iron"
-  } ]
+    "processes": [ {
+      "name": {
+        "en-us": "smelting"
+      },
+      "required_technology": [ "smelting" ],
+      "required_matter": {
+        "$or": {
+          "magnetite": 3
+        }
+      },
+      "output": "iron"
+    } ]  
+  },
+  "mine": {
+    "name": {
+      "en-us": "mine"
+    },
+    "description": {
+      "en-us": "an excavation from which ore or solid minerals are taken"
+    },
+    "processes": [ {
+      "name": {
+        "en-us": "magnetide mining"
+      },
+      "required_technology": [ "magnetide discovery" ],
+      "required_matter": { },
+      "output": "magnetide"
+    } ]  
+  }
 }
