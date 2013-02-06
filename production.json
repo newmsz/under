@@ -28,11 +28,11 @@
     },
     "processes": [ {
       "name": {
-        "en-us": "magnetide mining"
+        "en-us": "magnetite mining"
       },
-      "required_technology": [ "magnetide discovery" ],
+      "required_technology": [ "magnetite discovery" ],
       "required_matter": { },
-      "output": "magnetide"
+      "output": "magnetite"
     } ]  
   }
 }
