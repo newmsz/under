@@ -1,4 +1,13 @@
 {
+  "magnetide discovery": {
+    "name": {
+      "en-us": "magnetite discovery"
+    },
+    "description": {
+      "en-us": "the discovery of mineral magnetite"
+    },
+    "required": []
+  },
   "mining": {
     "name": {
       "en-us": "mining"
