@@ -1,10 +1,17 @@
 {
   "name": {
-    "en-us": "magnetite"
+    "en-us": "stillmill"
   },
-  "type": "raw",
   "description": {
-    "en-us": "magnetic of all naturally occuring minerals of the world"
+    "en-us": "an industrial plant for the manufacture of steel"
   },
-  "required": [] 
+  "processes": [ {
+    "name": {
+      "en-us": "smelting"
+    },
+    "required": {
+      "$or": ["magnetite"]
+    },
+    "output": "pig iron"
+  } ]
 }
