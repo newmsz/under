@@ -1,7 +1,10 @@
 {
-  "name": "magnetite",
+  "name": {
+    "en-us": "magnetite"
+  },
   "type": "raw",
   "description": {
     "en-us": "magnetic of all naturally occuring minerals of the world"
-  }
+  },
+  "required": [] 
 }
