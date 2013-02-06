@@ -1,2 +1,6 @@
-under
+UNDER
 =====
+
+License
+=======
+MIT License
