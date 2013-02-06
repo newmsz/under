@@ -9,9 +9,12 @@
     "name": {
       "en-us": "smelting"
     },
-    "required": {
-      "$or": ["magnetite"]
+    "required_technology": [ "smelting" ],
+    "required_matter": {
+      "$or": {
+        "magnetite": 3
+      }
     },
-    "output": "pig iron"
+    "output": "iron"
   } ]
 }
