@@ -1,0 +1,11 @@
+{
+  "mining": {
+    "name": {
+      "en-us": "mining"
+    },
+    "description": {
+      "en-us": "the extraction of geological materials from the Earth"
+    },
+    "required": []
+  }
+}
