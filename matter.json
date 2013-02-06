@@ -1,10 +1,19 @@
 {
-  "id": "magnetite",
-  "name": {
-    "en-us": "magnetite"
+  "magnetite": {
+    "name": {
+      "en-us": "magnetite"
+    },
+    "description": {
+      "en-us": "magnetic of all naturally occuring minerals of the world"
+    }
   },
-  "type": "raw",
-  "description": {
-    "en-us": "magnetic of all naturally occuring minerals of the world"
-  } 
+  "iron": {
+    "name": {
+      "en-us": "iron"
+    },
+    "description": {
+      "en-us": "the most common element forming the planet Earth"
+    }
+  }
 }
+
